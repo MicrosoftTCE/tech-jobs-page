@@ -141,7 +141,7 @@ header::after {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: url("../images/black_woman_at_computer.jpeg");
+  background-image: url("../images/woman_at_computer.jpg");
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: -90 0; }
@@ -362,8 +362,6 @@ footer {
     margin-right: 0; }
   footer .partner-logos {
     padding: 20px 0px 40px; }
-  footer h2 {
-    margin-top: 760px; }
   footer a {
     display: block;
     padding-bottom: 20px; }
@@ -1060,8 +1058,6 @@ footer {
       left: 0px;
       background-color: #16dda4; }
 
-  footer {
-    margin-top: 150px; }
     footer .partner-logos {
       float: left;
       display: block;
@@ -1080,9 +1076,6 @@ footer {
           text-align: center; }
           footer .partner-logos a img:last-child {
             margin-right: 0px; }
-
-  footer h2 {
-    margin-top: 310px; }
 
   .nav-bar {
     float: left;
