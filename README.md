@@ -1,1 +1,1 @@
-# Tech Jobs Academy Landing Page
+# Tech Jobs Academy
