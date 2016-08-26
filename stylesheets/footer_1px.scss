@@ -4,9 +4,6 @@ footer {
   .partner-logos {
     padding: 20px 0px 40px;
   }
-  h2 {
-    margin-top: 760px;
-  }
   a {
     display: block;
     padding-bottom:20px;
@@ -22,9 +19,9 @@ footer {
   clear: both;
   @include span-columns(12);
   text-align:center;
-  padding: 15px;  
+  padding: 15px;
   max-width: none;
-  nav, ul { 
+  nav, ul {
     float: none;
     width: auto;
   }

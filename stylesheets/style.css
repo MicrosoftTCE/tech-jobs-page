@@ -362,8 +362,6 @@ footer {
     margin-right: 0; }
   footer .partner-logos {
     padding: 20px 0px 40px; }
-  footer h2 {
-    margin-top: 760px; }
   footer a {
     display: block;
     padding-bottom: 20px; }
@@ -1080,9 +1078,6 @@ footer {
           text-align: center; }
           footer .partner-logos a img:last-child {
             margin-right: 0px; }
-
-  footer h2 {
-    margin-top: 310px; }
 
   .nav-bar {
     float: left;
