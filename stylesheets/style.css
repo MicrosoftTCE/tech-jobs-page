@@ -6,7 +6,7 @@ html {
 
 .long-button {
   display: inline-block;
-  background-color: #16dda4;
+  background-color: #1db0ed;
   cursor: pointer;
   color: white;
   font-family: 100% Roboto, sans-serif;
@@ -25,7 +25,7 @@ a {
     font-weight: 900; }
 
 p > a, li a {
-  color: #16dda4;
+  color: #1db0ed;
   text-decoration: underline; }
 
 h1 {
@@ -49,7 +49,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: #16dda4; }
+    background-color: #1db0ed; }
 
 h3 {
   font-family: Roboto, sans-serif;
@@ -106,7 +106,7 @@ ul {
     width: 35px;
     text-align: center;
     border-radius: 1in;
-    border: 1.5px solid #16dda4;
+    border: 1.5px solid #1db0ed;
     font-weight: 900;
     background-color: white; }
 
@@ -336,21 +336,21 @@ h1, h2 {
   left: 49.5%;
   height: 565px;
   width: 3.5px;
-  background-color: #16dda4; }
+  background-color: #1db0ed; }
   .line .line-start {
     position: absolute;
     height: 5px;
     width: 16px;
     top: -5px;
     left: -6px;
-    background-color: #16dda4; }
+    background-color: #1db0ed; }
   .line .line-end {
     position: absolute;
     height: 5px;
     width: 16px;
     top: 562px;
     left: -6px;
-    background-color: #16dda4; }
+    background-color: #1db0ed; }
 
 footer {
   float: left;
@@ -420,11 +420,11 @@ footer {
   padding: 15px 10px 10px; }
 
 .short-button {
-  padding: 11px 30px;
+  padding: 9px 30px 10px;
   margin-right: auto;
   margin-left: -10px;
   display: inline;
-  background-color: #16dda4;
+  background-color: #1db0ed;
   cursor: pointer;
   color: #ffffff;
   font-family: 1.733em;
@@ -449,7 +449,7 @@ footer {
   background: lightgray;
   padding: 20px; }
   .share .facebook-posts a p:hover, .share .tweets a p:hover {
-    background: #16dda4; }
+    background: #1db0ed; }
 
 @media screen and (max-width: 750px) {
   .nav-bar {
@@ -466,12 +466,12 @@ footer {
     .nav-bar .logo {
       width: 100%;
       z-index: 9;
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(43, 177, 234, 0.65);
       top: 0px;
       left: 0px;
       position: fixed; }
       .nav-bar .logo p {
-        color: #16dda4;
+        color: #1db0ed;
         font-size: 0.56278em;
         font-weight: 900;
         float: left; }
@@ -488,7 +488,7 @@ footer {
         .nav-bar nav .nav-list:last-child {
           margin-right: 0; }
         .nav-bar nav .nav-list li #apply {
-          background: #16dda4;
+          background: #1db0ed;
           padding: 5px 20px; }
         .nav-bar nav .nav-list ul {
           z-index: 9;
@@ -497,7 +497,7 @@ footer {
           list-style-type: none;
           color: black;
           width: 100%;
-          background-color: rgba(0, 0, 0, 0.7);
+          background-color: rgba(43, 177, 234, 0.65);
           margin-bottom: 0px;
           padding-bottom: 2px;
           position: fixed;
@@ -508,7 +508,7 @@ footer {
           color: #000000;
           text-align: center;
           padding-bottom: 5px;
-          border-bottom: 1px solid #16dda4; }
+          border-bottom: 1px solid #1db0ed; }
           .nav-bar nav .nav-list li:last-child {
             border-bottom: none;
             padding-bottom: 1px; }
@@ -516,7 +516,7 @@ footer {
           color: white;
           text-decoration: none; }
         .nav-bar nav .nav-list a:hover {
-          color: #16dda4; }
+          color: #1db0ed; }
       .nav-bar nav .c-hamburger {
         top: 0px;
         right: 0px;
@@ -566,7 +566,7 @@ footer {
       .nav-bar nav .c-hamburger span::after {
         bottom: -20px; }
       .nav-bar nav .c-hamburger--rot {
-        background-color: #16dda4; }
+        background-color: #1db0ed; }
       .nav-bar nav .c-hamburger--rot span {
         transition: transform 0.3s; }
       .nav-bar nav .c-hamburger--rot.is-active {
@@ -1042,21 +1042,21 @@ footer {
     left: -90px;
     height: 3.5px;
     width: 1025px;
-    background-color: #16dda4; }
+    background-color: #1db0ed; }
     .line .line-start {
       position: absolute;
       height: 16px;
       width: 3px;
       top: -6px;
       left: 1025px;
-      background-color: #16dda4; }
+      background-color: #1db0ed; }
     .line .line-end {
       position: absolute;
       height: 16px;
       width: 3px;
       top: -6px;
       left: 0px;
-      background-color: #16dda4; }
+      background-color: #1db0ed; }
 
     footer .partner-logos {
       float: left;
@@ -1083,7 +1083,7 @@ footer {
     margin-right: 2.35765%;
     width: 100%;
     z-index: 9;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(43, 177, 234, 0.65);
     top: 0px;
     left: 0px;
     position: fixed; }
@@ -1097,14 +1097,14 @@ footer {
       width: 100%;
       text-align: center; }
       .nav-bar .logo p {
-        color: #16dda4;
+        color: #1db0ed;
         font-size: 0.56278em;
         margin-right: 0px;
         font-weight: 900; }
     .nav-bar li:nth-last-child(2) {
       border-right: none; }
     .nav-bar a#apply {
-      background: #16dda4;
+      background: #1db0ed;
       padding: 5px 20px; }
       .nav-bar a#apply:hover {
         color: white;
@@ -1134,7 +1134,7 @@ footer {
     nav li {
       padding: 0px 3px;
       font-size: 0.75019em;
-      border-right: 2px solid #16dda4;
+      border-right: 1px solid white;
       display: inline; }
       nav li:last-child {
         border-right: none; }
@@ -1144,14 +1144,16 @@ footer {
         padding-right: 5px;
         text-decoration: none; }
       nav li a:hover {
-        color: #16dda4; }
+        text-decoration: underline;
+        font-weight: inherit;
+      }
 
   .nav-bar .logo {
     width: auto;
     padding-left: 30px;
     float: left; }
     .nav-bar .logo p {
-      color: #16dda4;
+      color: #1db0ed;
       font-size: 14px;
       margin-right: 0px; }
 
@@ -1191,3 +1193,18 @@ footer {
 
   .eligibility h3 {
     padding-left: 0px; } }
+
+.nav-bar {
+  padding: 1em 0;
+}
+
+.nav-bar .logo p {
+  color: white;
+  font-weight: normal;
+}
+
+.nav-bar .logo span {
+  padding: 1em .5em;
+  background-color: white;
+  color: #1db0ed;
+}
