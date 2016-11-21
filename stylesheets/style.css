@@ -6,7 +6,7 @@ html {
 
 .long-button {
   display: inline-block;
-  background-color: #16dda4;
+  background-color: #00aff0;
   cursor: pointer;
   color: white;
   font-family: 100% Roboto, sans-serif;
@@ -25,7 +25,7 @@ a {
     font-weight: 900; }
 
 p > a, li a {
-  color: #16dda4;
+  color: #00aff0;
   text-decoration: underline; }
 
 h1 {
@@ -49,7 +49,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: #16dda4; }
+    background-color: #00aff0; }
 
 h3 {
   font-family: Roboto, sans-serif;
@@ -106,7 +106,7 @@ ul {
     width: 35px;
     text-align: center;
     border-radius: 1in;
-    border: 1.5px solid #16dda4;
+    border: 1.5px solid #00aff0;
     font-weight: 900;
     background-color: white; }
 
@@ -217,7 +217,7 @@ h1, h2 {
 .overview p {
   text-align: center;
   font-weight: 100;
-  margin-bottom: 50px; }
+}
 
 .get-involved p {
   text-align: center; }
@@ -336,21 +336,21 @@ h1, h2 {
   left: 49.5%;
   height: 565px;
   width: 3.5px;
-  background-color: #16dda4; }
+  background-color: #00aff0; }
   .line .line-start {
     position: absolute;
     height: 5px;
     width: 16px;
     top: -5px;
     left: -6px;
-    background-color: #16dda4; }
+    background-color: #00aff0; }
   .line .line-end {
     position: absolute;
     height: 5px;
     width: 16px;
     top: 562px;
     left: -6px;
-    background-color: #16dda4; }
+    background-color: #00aff0; }
 
 footer {
   float: left;
@@ -424,7 +424,7 @@ footer {
   margin-right: auto;
   margin-left: -10px;
   display: inline;
-  background-color: #16dda4;
+  background-color: #00aff0;
   cursor: pointer;
   color: #ffffff;
   font-family: 1.733em;
@@ -449,7 +449,7 @@ footer {
   background: lightgray;
   padding: 20px; }
   .share .facebook-posts a p:hover, .share .tweets a p:hover {
-    background: #16dda4; }
+    background: #00aff0; }
 
 @media screen and (max-width: 750px) {
   .nav-bar {
@@ -471,7 +471,7 @@ footer {
       left: 0px;
       position: fixed; }
       .nav-bar .logo p {
-        color: #16dda4;
+        color: #00aff0;
         font-size: 0.56278em;
         font-weight: 900;
         float: left; }
@@ -488,7 +488,7 @@ footer {
         .nav-bar nav .nav-list:last-child {
           margin-right: 0; }
         .nav-bar nav .nav-list li #apply {
-          background: #16dda4;
+          background: #00aff0;
           padding: 5px 20px; }
         .nav-bar nav .nav-list ul {
           z-index: 9;
@@ -508,7 +508,7 @@ footer {
           color: #000000;
           text-align: center;
           padding-bottom: 5px;
-          border-bottom: 1px solid #16dda4; }
+          border-bottom: 1px solid #00aff0; }
           .nav-bar nav .nav-list li:last-child {
             border-bottom: none;
             padding-bottom: 1px; }
@@ -516,7 +516,7 @@ footer {
           color: white;
           text-decoration: none; }
         .nav-bar nav .nav-list a:hover {
-          color: #16dda4; }
+          color: #00aff0; }
       .nav-bar nav .c-hamburger {
         top: 0px;
         right: 0px;
@@ -566,14 +566,33 @@ footer {
       .nav-bar nav .c-hamburger span::after {
         bottom: -20px; }
       .nav-bar nav .c-hamburger--rot {
-        background-color: #16dda4; }
+        background-color: #00aff0; }
       .nav-bar nav .c-hamburger--rot span {
         transition: transform 0.3s; }
       .nav-bar nav .c-hamburger--rot.is-active {
         background-color: #30856d; }
       .nav-bar nav .c-hamburger--rot.is-active span {
         transform: rotate(90deg); } }
+
+.details-column li,
+.details-column p {
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
 @media screen and (min-width: 750px) {
+  .details-column {
+    float: left;
+    display: block;
+    width: 50%;
+    padding-left: 1.5em;
+  }
+
+  .details-column:first-of-type {
+    padding-left: 0;
+    padding-right: 1.5em;
+  }
+
   h1 {
     font-size: 4.20873em;
     margin-bottom: 0px; }
@@ -1042,21 +1061,21 @@ footer {
     left: -90px;
     height: 3.5px;
     width: 1025px;
-    background-color: #16dda4; }
+    background-color: #00aff0; }
     .line .line-start {
       position: absolute;
       height: 16px;
       width: 3px;
       top: -6px;
       left: 1025px;
-      background-color: #16dda4; }
+      background-color: #00aff0; }
     .line .line-end {
       position: absolute;
       height: 16px;
       width: 3px;
       top: -6px;
       left: 0px;
-      background-color: #16dda4; }
+      background-color: #00aff0; }
 
     footer .partner-logos {
       float: left;
@@ -1097,14 +1116,14 @@ footer {
       width: 100%;
       text-align: center; }
       .nav-bar .logo p {
-        color: #16dda4;
+        color: #00aff0;
         font-size: 0.56278em;
         margin-right: 0px;
         font-weight: 900; }
     .nav-bar li:nth-last-child(2) {
       border-right: none; }
     .nav-bar a#apply {
-      background: #16dda4;
+      background: #00aff0;
       padding: 5px 20px; }
       .nav-bar a#apply:hover {
         color: white;
@@ -1134,7 +1153,7 @@ footer {
     nav li {
       padding: 0px 3px;
       font-size: 0.75019em;
-      border-right: 2px solid #16dda4;
+      border-right: 2px solid #00aff0;
       display: inline; }
       nav li:last-child {
         border-right: none; }
@@ -1144,14 +1163,14 @@ footer {
         padding-right: 5px;
         text-decoration: none; }
       nav li a:hover {
-        color: #16dda4; }
+        color: #00aff0; }
 
   .nav-bar .logo {
     width: auto;
     padding-left: 30px;
     float: left; }
     .nav-bar .logo p {
-      color: #16dda4;
+      color: #00aff0;
       font-size: 14px;
       margin-right: 0px; }
 
