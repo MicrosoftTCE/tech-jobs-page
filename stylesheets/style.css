@@ -15,6 +15,15 @@ html {
   text-decoration: none;
   border: none; }
 
+  .row {
+    display: inline flex;
+  }
+
+  .thumbnail {
+  margin-bottom:7px;
+  height:12em;
+  }
+
 body {
   margin: 0; }
 
@@ -120,6 +129,10 @@ section {
   font-family: Roboto, sans-serif;
   font-size: 66px;
   font-weight: 900; }
+
+.row {
+    display: inline flex;
+  }
 
 .dollar {
   font-size: 24px;
@@ -654,7 +667,8 @@ footer {
       font-weight: 100; }
 
   p {
-    font-weight: 100; }
+    font-weight: 100;
+    }
 
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
