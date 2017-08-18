@@ -16,12 +16,16 @@ html {
   border: none; }
 
   .row {
-    display: inline flex;
+    display: flex;
   }
 
   .thumbnail {
   margin-bottom:7px;
   height:12em;
+  }
+
+  .col-lg-2.col-sm-3.col-xs-4 {
+    padding: .5em;
   }
 
 body {
@@ -621,6 +625,10 @@ footer {
       margin-right: 0; }
     section.curriculum .image-blurb:nth-child(3n+1) {
       clear: left; }
+
+table {
+  max-width: 100%;
+}
 
   .eligibility {
     float: left;
