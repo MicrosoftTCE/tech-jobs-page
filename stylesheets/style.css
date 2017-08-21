@@ -244,8 +244,11 @@ h3 {
   font-weight: 400 !important;
 }
 
+p {
+}
+
 .col-lg-2 {
-  max-width: 100% !important;
+  max-width: 100% !important; 
 }
 
 .overview p {
