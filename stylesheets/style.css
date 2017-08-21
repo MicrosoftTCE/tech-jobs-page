@@ -33,9 +33,11 @@ body {
 
 a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none !important; 
+}
   a:hover {
-    font-weight: 900; }
+    font-weight: 900; 
+    color:white !important;}
 
 p > a, li a {
   color: #1db0ed;
@@ -553,7 +555,9 @@ footer {
           color: white;
           text-decoration: none; }
         .nav-bar nav .nav-list a:hover {
-          color: #1db0ed; }
+          color: white !important; 
+          background-color: transparent;
+          text-decoration: none !important}
       .nav-bar nav .c-hamburger {
         top: 0px;
         right: 0px;
@@ -1243,6 +1247,7 @@ table {
 .nav-bar .logo p {
   color: white;
   font-weight: normal;
+  padding: 1em 0 !important; 
 }
 
 .nav-bar .logo span {
