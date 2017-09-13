@@ -47,27 +47,8 @@
     </header>
     <section style="padding-top:7em;">
       <h2>Booklet</h2>
-      <!-- <object data="./tja_booklet.pdf" width="100%" height="75%" type='application/pdf'></object> -->
-
-      <canvas id="booklet" style="width:100%;height:100%;"></canvas>
-
+      <object data="./tja_booklet.pdf" width="100%" height="75%" type='application/pdf'></object>
     </section>
-
-    <script>
-      var canvas = document.getElementById('booklet');
-      var context = canvas.getContext('2d');
-
-      PDFJS.getDocument('tja_booklet.pdf').then(function(pdf){
-        return pdf.getPage(1);
-      })
-      .then(function(pageOne) {
-        return pageOne.render({canvasContext: context,
-        viewport: canvas})
-      })
-      .then(function(){console.log('It worked')})
-
-    </script>
-
   </body>
 
 
