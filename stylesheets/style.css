@@ -97,6 +97,11 @@ ul {
   font-weight: 400;
   color: black; }
 
+a.download {
+  color: black;
+  font-family: Roboto, sans-serif;
+}
+
 .application-steps ol {
   list-style: none;
   counter-reset: my-awesome-counter; }
@@ -124,6 +129,12 @@ ul {
     border: 1.5px solid #1db0ed;
     font-weight: 900;
     background-color: white; }
+
+    .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 .hero-blurb p {
   color: white; }
