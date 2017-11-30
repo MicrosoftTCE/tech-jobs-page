@@ -472,7 +472,7 @@ footer {
 .short-button {
   padding: 9px 30px 10px;
   margin-right: auto;
-  margin-left: -10px;
+  /*margin-left: -10px;*/
   display: inline;
   background-color: #1db0ed;
   cursor: pointer;
