@@ -469,6 +469,12 @@ footer {
   width: 130px;
   padding: 15px 10px 10px; }
 
+  @media screen and (max-width: 450px) {
+    .mail-signup #mc_embed_signup #input-box input[type="email"] {
+      width: 100%;
+    }
+  }
+
 .short-button {
   padding: 9px 30px 10px;
   margin-right: auto;
@@ -481,6 +487,14 @@ footer {
   font-size: 1.333em;
   text-decoration: none;
   border: none; }
+
+  @media screen and (max-width: 450px) {
+    .short-button {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+}
 
 .share img {
   width: 300px; }
